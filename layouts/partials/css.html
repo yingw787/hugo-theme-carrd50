@@ -28,6 +28,12 @@ h1 {
 
 p {
     font-family: '{{ .Site.Params.font }}', monospace;
+    color: {{ .Site.Params.footerTextColor | default "rgba(255,255,255,0.769)" | safeCSS }};
+    letter-spacing: -0.025rem;
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.625;
+    font-weight: 400;
 }
 
 .footerText {
@@ -36,19 +42,6 @@ p {
     letter-spacing: -0.025rem;
     width: 100%;
     font-size: 0.9rem;
-    line-height: 1.625;
-    font-weight: 400;
-}
-
-.pageBottomText {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-
-    font-family: '{{ .Site.Params.font }}', monospace;
-    color: {{ .Site.Params.footerTextColor | default "rgba(255,255,255,0.502)" | safeCSS }};
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 1.125rem;
     line-height: 1.625;
     font-weight: 400;
 }
