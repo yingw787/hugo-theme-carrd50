@@ -1236,7 +1236,7 @@ p .li {
     line-height: 1.25;
     font-weight: 400;
 }
-#text06 br + br {
+/* #text06 br + br {
     margin-top: 0.975rem;
 }
 #text06 {
@@ -1251,7 +1251,25 @@ p .li {
 #text06 mark {
     color: #000000;
     background-color: #FFFF00;
+} */
+
+p br + br {
+    margin-top: 0.975rem;
 }
+p {
+    color: rgba(255,255,255,0.769);
+    font-family: 'Space Mono', monospace;
+    letter-spacing: -0.025rem;
+    width: 100%;
+    font-size: 1.125em;
+    line-height: 1.625;
+    font-weight: 400;
+}
+p mark {
+    color: #000000;
+    background-color: #FFFF00;
+}
+
 #text01 br + br {
     margin-top: 0.75rem;
 }
@@ -1762,7 +1780,13 @@ p .li {
         font-size: 3em;
         line-height: 1.25;
     }
-    #text06 {
+    /* #text06 {
+        letter-spacing: -0.021875rem;
+        width: 100%;
+        font-size: 1.125em;
+        line-height: 1.625;
+    } */
+    p {
         letter-spacing: -0.021875rem;
         width: 100%;
         font-size: 1.125em;
@@ -2010,7 +2034,10 @@ p .li {
     #text03 {
         font-size: 2em;
     }
-    #text06 {
+    /* #text06 {
+        font-size: 1.125em;
+    } */
+    p {
         font-size: 1.125em;
     }
     #text01 {
