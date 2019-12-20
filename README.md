@@ -35,3 +35,8 @@ cp themes/carrd50/exampleSite/config.toml .
 ```bash
 hugo server -t carrd50
 ```
+
+## Notes
+
+- The custom-themed Mailchimp signup form only works if your audience has
+  required FNAME, LNAME, and EMAIL fields.
