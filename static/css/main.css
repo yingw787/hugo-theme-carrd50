@@ -766,19 +766,6 @@ form button:disabled {
     padding: 1.3125rem;
     height: 10rem;
 }
-#form01 button {
-    height: 3.25rem;
-    line-height: 3.25rem;
-    padding: 0 1.625rem;
-    font-size: 1em;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -0.025rem;
-    font-weight: 400;
-    border-radius: 0.25rem;
-    background-color: #3BACFF;
-    color: #FFFFFF;
-    position: relative;
-}
 #form01 .inner > :first-child > label:first-child {
     margin-top: 0;
 }

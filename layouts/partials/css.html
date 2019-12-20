@@ -1,4 +1,6 @@
-<!-- This style block should be placed here in order to configure styling from config.toml. -->
+<!-- This style block should be placed here in order to configure styling from
+config.toml using Hugo templating. -->
+<!-- For all other styling, refer to static/css/main.css. -->
 <style>
 body {
     margin: 0;
@@ -53,6 +55,20 @@ p {
 #form01 input[type="text"]:focus,
 #form01 input[type="email"]:focus {
     box-shadow: 0 0 0 1px {{ .Site.Params.formSelectedColor | default "#1ABC9C" | safeCSS }}, inset 0 0 0 1px {{ .Site.Params.formSelectedColor | default "#1ABC9C" | safeCSS }};
+}
+
+#form01 button {
+    height: 3.25rem;
+    line-height: 3.25rem;
+    padding: 0 1.625rem;
+    font-size: 1em;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: -0.025rem;
+    font-weight: 400;
+    border-radius: 0.25rem;
+    background-color: {{ .Site.Params.buttonBackgroundColor | default "#3BACFF" | safeCSS }};
+    color: {{ .Site.Params.buttonColor | default "#FFFFFF" | safeCSS }};
+    position: relative;
 }
 </style>
 
