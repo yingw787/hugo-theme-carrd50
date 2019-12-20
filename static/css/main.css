@@ -29,3 +29,11 @@
     max-width: 100%;
     width: 39rem;
 }
+
+#image01 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+}
+#image01 img {
+    width: 7rem;
+}
