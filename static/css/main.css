@@ -943,16 +943,6 @@ p .li {
 h1 br + br {
     margin-top: 0.75rem;
 }
-h1 {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: 0.5rem;
-    width: calc(100% + 0.5rem);
-    font-size: 3em;
-    line-height: 1.25;
-    font-weight: 400;
-}
 
 p br + br {
     margin-top: 0.975rem;
@@ -965,10 +955,6 @@ p {
     font-size: 1.125em;
     line-height: 1.625;
     font-weight: 400;
-}
-p mark {
-    color: #000000;
-    background-color: #FFFF00;
 }
 
 .image {
@@ -1036,33 +1022,6 @@ p mark {
     justify-content: center;
     vertical-align: middle;
 }
-/* #buttons01 {
-    width: calc(100% + 0rem);
-    margin-left: -0rem;
-}
-#buttons01 li {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: calc(100% - 0rem);
-    margin: 0;
-}
-#buttons01 li a {
-    display: flex;
-    width: auto;
-    height: 3.25rem;
-    line-height: 3.25rem;
-    vertical-align: middle;
-    padding: 0 1.625rem;
-    font-size: 1em;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -0.025rem;
-    font-weight: 400;
-    border-radius: 0.25rem;
-}
-#buttons01 .button {
-    background-color: #3BACFF;
-    color: #FFFFFF;
-} */
 @media (max-width: 1680px) {
     html {
         font-size: 13pt;
