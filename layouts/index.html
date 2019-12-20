@@ -8,9 +8,11 @@
                     <img src="{{ .Site.Params.titleImage | absURL }}">
                 </div>
             {{ end }}
-            <h1>{{ .Site.Title }}</h1>
+            <h1 id="pageTitleText">{{ .Site.Title }}</h1>
 
-            {{ .Content }}
+            <div id="pageBodyText">
+                {{ .Content }}
+            </div>
 
             <p class="footerText">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
         </div>
