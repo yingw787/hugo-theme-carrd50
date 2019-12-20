@@ -12,6 +12,8 @@
 
             {{ .Content }}
 
+            {{ partial "mailchimp" . }}
+
             <p class="footerText">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
         </div>
     </div>
