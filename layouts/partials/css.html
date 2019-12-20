@@ -31,11 +31,7 @@ p {
 }
 
 .footerText {
-    /*
-        Apparently Hugo cannot trivially parse rgba values, original default is
-        rgba(255,255,255,0.502).
-    */
-    color: {{ .Site.Params.footerTextColor | default "#93a1a1" }};
+    color: {{ .Site.Params.footerTextColor | default "rgba(255,255,255,0.502)" | safeCSS }};
     font-family: '{{ .Site.Params.font }}', monospace;
     letter-spacing: -0.025rem;
     width: 100%;
