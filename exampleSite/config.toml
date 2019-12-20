@@ -12,6 +12,7 @@ googleAnalytics = ""
     author = "Ying Wang"
     email = "me@yingw787.com"
     description = "Port of Pro Template #50 by https://carrd.co"
+    copyrightYear = "2019"
     favicon = "img/favicon.png"
 
     # Optional #
