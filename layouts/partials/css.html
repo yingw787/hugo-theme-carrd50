@@ -6,7 +6,7 @@ html body {
 
 h1 {
     font-family: '{{ .Site.Params.font }}', monospace;
-    color: '{{ .Site.Params.titleTextColor | default "#FFFFFF" }}';
+    color: '{{ ".Site.Params.titleTextColor" | default "#FFFFFF" }}';
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     width: calc(100% + 0.5rem);
