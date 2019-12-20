@@ -44,6 +44,16 @@ p {
     line-height: 1.625;
     font-weight: 400;
 }
+
+#form01 input[type="text"],
+#form01 input[type="email"] {
+    color: {{ .Site.Params.formInputColor | default "#666666" | safeCSS }};
+    background-color: {{ .Site.Params.formBackgroundColor | default "#FFFFFF" | safeCSS }};
+}
+#form01 input[type="text"]:focus,
+#form01 input[type="email"]:focus {
+    box-shadow: 0 0 0 1px {{ .Site.Params.formSelectedColor | default "#1ABC9C" | safeCSS }}, inset 0 0 0 1px {{ .Site.Params.formSelectedColor | default "#1ABC9C" | safeCSS }};
+}
 </style>
 
 <!-- main.css -->

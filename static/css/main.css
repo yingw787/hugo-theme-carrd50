@@ -751,21 +751,6 @@ form button:disabled {
     font-weight: 400;
     border-radius: 0.25rem;
 }
-#form01 input[type="text"],
-#form01 input[type="email"],
-#form01 textarea,
-#form01 select,
-#form01 .file {
-    color: #666666;
-    background-color: #FFFFFF;
-}
-#form01 input[type="text"]:focus,
-#form01 input[type="email"]:focus,
-#form01 textarea:focus,
-#form01 select:focus,
-#form01 .file.focus {
-    box-shadow: 0 0 0 1px #1ABC9C, inset 0 0 0 1px #1ABC9C;
-}
 #form01 input[type="checkbox"] + label {
     color: #666666;
 }
