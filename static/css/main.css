@@ -37,3 +37,8 @@
 #image01 img {
     width: 7rem;
 }
+
+#pageTitleText {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
