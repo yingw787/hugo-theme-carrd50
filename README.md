@@ -6,10 +6,10 @@ This theme is a port of [Pro Template # 50](https://template50.carrd.co) by
 
 ## Environment
 
-This theme was tested using Hugo v0.48:
+This theme was tested using Hugo v0.61:
 
 ```bash
-Hugo Static Site Generator v0.48/extended darwin/amd64 BuildDate: 2018-08-29T06:55:03Z
+Hugo Static Site Generator v0.61.0-9B445B9D darwin/amd64 BuildDate: 2019-12-11T08:26:39Z
 ```
 
 ## Getting Started
@@ -17,16 +17,21 @@ Hugo Static Site Generator v0.48/extended darwin/amd64 BuildDate: 2018-08-29T06:
 - Setup a Hugo site by following [the Hugo "Getting Started"
   guide](https://gohugo.io/getting-started/).
 
-- Add this repository as a `git` submodule:
+- `git` clone this repository into `themes/carrd50`:
 
 ```bash
-git submodule add git@github.com:yingw787/hugo-theme-carrd50.git themes/carrd50
+git clone git@github.com:yingw787/hugo-theme-carrd50.git themes/carrd50
 ```
 
-- Test this theme using `hugo server`:
+- Copy over `config.toml` from `exampleSite` into the root of your Hugo site
+  directory:
+
+```bash
+cp themes/carrd50/exampleSite/config.toml .
+```
+
+- Test your site using `hugo server`:
 
 ```bash
 hugo server -t carrd50
 ```
-
-TODO TODO TODO
