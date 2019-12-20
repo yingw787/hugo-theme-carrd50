@@ -29,6 +29,17 @@ h1 {
 p {
     font-family: '{{ .Site.Params.font }}', monospace;
 }
+
+.footerText {
+    color: {{ .Site.Params.footerTextColor | default "rgba(255,255,255,0.502)" }};
+    font-family: '{{ .Site.Params.font }}', monospace;
+    letter-spacing: -0.025rem;
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.625;
+    font-weight: 400;
+}
+
 </style>
 
 <!-- main.css -->
