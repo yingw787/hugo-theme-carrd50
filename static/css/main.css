@@ -1,132 +1,15 @@
-a,
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
-body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-i,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-ruby,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
+body {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-body {
     line-height: 1;
-}
-ol,
-ul {
-    list-style: none;
-}
-blockquote,
-q {
-    quotes: none;
-}
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-body {
     -webkit-text-size-adjust: none;
-}
-mark {
-    background-color: transparent;
-    color: inherit;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #1C76B8;
 }
 input::-moz-focus-inner {
     border: 0;
@@ -145,46 +28,6 @@ textarea {
 *:after,
 *:before {
     box-sizing: border-box;
-}
-body {
-    min-width: 320px;
-    min-height: 100vh;
-    background-color: #1C76B8;
-}
-u {
-    text-decoration: underline;
-}
-strong {
-    color: inherit;
-    font-weight: bolder;
-}
-em {
-    font-style: italic;
-}
-code {
-    font-family: 'Lucida Console', 'Courier New', monospace;
-    font-weight: normal;
-    text-indent: 0;
-    letter-spacing: 0;
-    font-size: 0.9em;
-    margin: 0 0.25em;
-    padding: 0.25em 0.5em;
-    background-color: rgba(144,144,144,0.25);
-    border-radius: 0.25em;
-}
-mark {
-    background-color: rgba(144,144,144,0.25);
-}
-a {
-    -moz-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    -webkit-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    -ms-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    color: inherit;
-    text-decoration: underline;
-}
-s {
-    text-decoration: line-through;
 }
 html {
     font-size: 18pt;
