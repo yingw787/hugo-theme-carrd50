@@ -13,6 +13,10 @@ body {
     border: 0;
 }
 
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: '{{ .Site.Params.font }}', monospace;
     color: {{ .Site.Params.titleTextColor | default "#FFFFFF" }};
