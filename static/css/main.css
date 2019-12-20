@@ -971,31 +971,6 @@ p mark {
     background-color: #FFFF00;
 }
 
-#text01 br + br {
-    margin-top: 0.75rem;
-}
-#text01 {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: 0.5rem;
-    width: calc(100% + 0.5rem);
-    font-size: 1.875em;
-    line-height: 1.25;
-    font-weight: 400;
-}
-#text04 br + br {
-    margin-top: 0.975rem;
-}
-#text04 {
-    color: rgba(255,255,255,0.769);
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 1.125em;
-    line-height: 1.625;
-    font-weight: 400;
-}
 .image {
     position: relative;
     overflow: hidden;
@@ -1382,18 +1357,6 @@ p mark {
         font-size: 1.125em;
         line-height: 1.625;
     }
-    #text01 {
-        letter-spacing: 0.4375rem;
-        width: calc(100% + 0.4375rem);
-        font-size: 1.875em;
-        line-height: 1.25;
-    }
-    #text04 {
-        letter-spacing: -0.021875rem;
-        width: 100%;
-        font-size: 1.125em;
-        line-height: 1.625;
-    }
     #image01 {
         margin-top: 0.9375rem !important;
         margin-bottom: 0.9375rem !important;
@@ -1572,12 +1535,6 @@ p mark {
         font-size: 2em;
     }
     p {
-        font-size: 1.125em;
-    }
-    #text01 {
-        font-size: 1.5em;
-    }
-    #text04 {
         font-size: 1.125em;
     }
     #buttons01 {
