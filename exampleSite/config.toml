@@ -21,8 +21,12 @@ googleAnalytics = ""
     titleTextColor = "#FFFFFF"
     bodyTextColor = "#FFFFFF"
     backgroundColor = "#002b36" # Solarized Dark Base03
-    footerTextColor = "#FFFFFF"
 
     formInputColor = "#666666"
     formBackgroundColor = "#FFFFFF"
     formSelectedColor = "#1ABC9C"
+
+    buttonColor = "#FFFFFF"
+    buttonBackgroundColor = "#3BACFF"
+
+    footerTextColor = "#FFFFFF"
