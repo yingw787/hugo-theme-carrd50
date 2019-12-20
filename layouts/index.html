@@ -10,9 +10,7 @@
             {{ end }}
             <h1 id="pageTitleText">{{ .Site.Title }}</h1>
 
-            <div id="pageBodyText">
-                {{ .Content }}
-            </div>
+            {{ .Content }}
 
             <p class="footerText">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
         </div>
