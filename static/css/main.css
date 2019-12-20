@@ -947,15 +947,6 @@ h1 br + br {
 p br + br {
     margin-top: 0.975rem;
 }
-p {
-    color: rgba(255,255,255,0.769);
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 1.125em;
-    line-height: 1.625;
-    font-weight: 400;
-}
 
 .image {
     position: relative;
