@@ -3,20 +3,65 @@
 <div id="wrapper">
     <div id="main">
         <div class="inner">
-            {{ if .Site.Params.titleImage }}
-                <div id="image01" class="image">
-                    <img src="{{ .Site.Params.titleImage | absURL }}">
+            <section id="home-section" class="active">
+                <div id="columns01" class="container default">
+                    <div class="inner">
+                        <div id="image01" class="image"><img src="img/image01.png" alt=""></div>
+                        <h1 id="text03"><span>Untitled</span><br> <span>Project</span></h1>
+                        <p id="text06">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi cursus euismod arcu elementum. Lorem ipsum dolor amet nullam. Download your copy for just <mark>$15 USD</mark></p>
+                    </div>
                 </div>
-            {{ end }}
-            <h1 id="pageTitleText">{{ .Site.Title }}</h1>
-
-            {{ .Content }}
-
-            {{ partial "mailchimp" . }}
-
-            <p class="footerText">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
+                <div id="columns02" class="container default">
+                    <div class="inner">
+                        <form enctype="multipart/form-data" id="form01" method="post">
+                            <div class="inner">
+                                <div class="field"><input type="email" name="email" id="form01-email" placeholder="Your email address" maxlength="128" required=""></div>
+                                <div class="field" style="display: none;"><input type="text" name="www-url" id="form01-www-url" placeholder="Www Url" maxlength="128" disabled="disabled"></div>
+                                <div class="actions"><button type="submit">Continue to Payment</button></div>
+                            </div><input type="hidden" name="id" value="form01"></form>
+                        <p id="text05"><em>All major credit cards accepted.</em></p>
+                    </div>
+                </div>
+                <p id="text02">© Untitled</p>
+            </section>
+            <section id="done-section" class="inactive" style="display: none;">
+                <div id="columns03" class="container default">
+                    <div class="inner">
+                        <h2 id="text01">Thank you</h2>
+                        <p id="text04">Nam feugiat sapien dapibus felis ullamcorper, non tempor tellus congue ac lacus dolore.</p>
+                        <ul id="buttons01" class="buttons">
+                            <li><a href="#home" class="button n01">Back</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </div>
 
 {{ partial "footer" . }}
+
+
+
+<!-- {{ partial "header" . }}
+
+<div id="wrapper">
+    <div id="main">
+        <div class="inner">
+            {{ if .Site.Params.titleImage }}
+                <div id="image01" class="image">
+                    <img src="{{ .Site.Params.titleImage | absURL }}">
+                </div>
+            {{ end }}
+            <h1 id="text03">{{ .Site.Title }}</h1>
+
+            {{ .Content }}
+
+            {{ partial "mailchimp" . }}
+
+            <p class="text05">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer" . }} -->
