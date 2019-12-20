@@ -931,15 +931,6 @@ p .li {
 #text02 br + br {
     margin-top: 0.975rem;
 }
-#text02 {
-    color: rgba(255,255,255,0.502);
-    font-family: 'Space Mono', monospace;
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 0.75em;
-    line-height: 1.625;
-    font-weight: 400;
-}
 h1 br + br {
     margin-top: 0.75rem;
 }
