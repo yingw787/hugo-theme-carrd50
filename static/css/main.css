@@ -1223,7 +1223,7 @@ p .li {
     line-height: 1.625;
     font-weight: 400;
 }
-#text03 br + br {
+/* #text03 br + br {
     margin-top: 0.75rem;
 }
 #text03 {
@@ -1235,7 +1235,21 @@ p .li {
     font-size: 3em;
     line-height: 1.25;
     font-weight: 400;
+} */
+h1 br + br {
+    margin-top: 0.75rem;
 }
+h1 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.5rem;
+    width: calc(100% + 0.5rem);
+    font-size: 3em;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
 p br + br {
     margin-top: 0.975rem;
 }
@@ -1757,7 +1771,13 @@ p mark {
         font-size: 0.75em;
         line-height: 1.625;
     }
-    #text03 {
+    /* #text03 {
+        letter-spacing: 0.4375rem;
+        width: calc(100% + 0.4375rem);
+        font-size: 3em;
+        line-height: 1.25;
+    } */
+    h1 {
         letter-spacing: 0.4375rem;
         width: calc(100% + 0.4375rem);
         font-size: 3em;
@@ -2008,7 +2028,10 @@ p mark {
     #text02 {
         font-size: 0.75em;
     }
-    #text03 {
+    /* #text03 {
+        font-size: 2em;
+    } */
+    h1 {
         font-size: 2em;
     }
     p {
