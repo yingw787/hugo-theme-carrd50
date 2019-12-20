@@ -14,6 +14,8 @@ googleAnalytics = ""
     description = "Port of Pro Template #50 by https://carrd.co"
     copyrightYear = "2019"
     favicon = "img/favicon.png"
+    mailchimpURL = ""
+    mailchimpBotDecoyLink = ""
 
     # Optional #
     font = "Space Mono" # Available fonts include: ["Space Mono"].
