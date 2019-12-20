@@ -10,7 +10,7 @@
             {{ end }}
             <h1>{{ .Site.Title }}</h1>
 
-            <p class="footerText">© {{ .Site.Params.copyrightYear }} {{ .Site.Params.author }}</p>
+            <p class="footerText">© {{ dateFormat "2019" now }} {{ .Site.Params.author }}</p>
         </div>
     </div>
 </div>
