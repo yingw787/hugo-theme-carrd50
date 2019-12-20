@@ -12,6 +12,7 @@ googleAnalytics = ""
     author = "Ying Wang"
     email = "me@yingw787.com"
     description = "Port of Pro Template #50 by https://carrd.co"
+    copyrightYear = "2019"
 
     # Optional #
     font = "Space Mono" # Available fonts include: ["Space Mono"]. Double check file "css.html" for full Google Fonts API request.
@@ -19,3 +20,5 @@ googleAnalytics = ""
     titleTextColor = "#FFFFFF"
 
     # backgroundColor = "#002b36" # Solarized Dark Base03
+
+    footerTextColor = "#FFFFFF"
