@@ -1,8 +1,10 @@
+# Required
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "carrd50"
 theme = "carrd50"
 
+# Optional
 googleAnalytics = ""
 
 [params]
