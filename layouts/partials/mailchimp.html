@@ -1,33 +1,54 @@
-<form enctype="multipart/form-data" id="form01" method="post">
+<form
+    action="{{ .Site.Params.mailchimpURL }}"
+    method="post"
+    id="form01"
+    name="mc-embedded-subscribe-form"
+    class="validate"
+    target="_blank"
+    novalidate>
     <div class="inner">
         <div class="field">
             <input
                 type="text"
-                name="firstName"
+                name="FNAME"
                 placeholder="First name"
-                maxlength="128"
+                class="required"
+                id="MCE-FNAME"
                 required>
         </div>
         <div class="field">
             <input
                 type="text"
-                name="lastName"
+                name="LNAME"
                 placeholder="Last name"
-                maxlength="128"
+                class="required"
+                id="MCE-LNAME"
                 required>
         </div>
         <div class="field">
             <input
                 type="email"
-                name="email"
+                name="EMAIL"
                 placeholder="Your email address"
-                maxlength="128"
+                class="required email"
+                id="MCE-EMAIL"
                 required>
         </div>
-        <div class="field" style="display: none;">
-            <input type="text" name="www-url" id="form01-www-url" placeholder="Www Url" maxlength="128" disabled="disabled">
+        <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div
+            style="position: absolute; left: -5000px;"
+            aria-hidden="true">
+            <input
+                type="text"
+                name="{{ .Site.Params.mailchimpBotDecoyLink }}"
+                tabindex="-1"
+                value="">
         </div>
         <div class="actions">
-            <button type="submit">Subscribe</button>
+            <button type="submit" value="mc-embedded-subscribe">Subscribe</button>
         </div>
 </form>
