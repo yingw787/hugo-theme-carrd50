@@ -3,13 +3,15 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "carrd50"
 theme = "carrd50"
+author = "Ying Wang"
+email = "me@yingw787.com"
+description = "Port of Pro Template #50 by https://carrd.co"
 
 # Optional
 googleAnalytics = ""
 
 [params]
-    author = "Ying Wang"
-    description = "Port of Pro Template #50 by https://carrd.co"
-    # Available fonts include:
-    # Google Fonts file
-    font = ""
+    # Required #
+
+    # Optional #
+    font = "Space Mono" # Available fonts include: ["Space Mono"]. Double check file "css.html" for full Google Fonts API request.
