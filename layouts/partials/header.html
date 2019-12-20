@@ -3,12 +3,14 @@
     <head>
         <!-- HTML META TAGS: https://gist.github.com/lancejpollard/1978404 -->
 
-        <!-- BASIC TAGS -->
+        <!-- BASIC HTML TAGS -->
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <title>{{ .Title }}</title>
+        <meta name="author" content="{{ .Site.Author }}, {{ .Site.Email }}">
         <meta name="description" content="{{ .Site.Description }}">
 
-        <!-- TODO: OTHER HTML META TAGS -->
+        <!-- OTHER HTML TAGS -->
+        {{ partial "css" . }}
     </head>
     <body>
