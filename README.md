@@ -17,10 +17,16 @@ Hugo Static Site Generator v0.48/extended darwin/amd64 BuildDate: 2018-08-29T06:
 - Setup a Hugo site by following [the Hugo "Getting Started"
   guide](https://gohugo.io/getting-started/).
 
-- Clone this repository:
+- Add this repository as a `git` submodule:
 
 ```bash
-git clone https://github.com/yingw787/hugo-theme-carrd50.git themes/carrd50
+git submodule add git@github.com:yingw787/hugo-theme-carrd50.git themes/carrd50
+```
+
+- Test this theme using `hugo server`:
+
+```bash
+hugo server -t carrd50
 ```
 
 TODO TODO TODO
