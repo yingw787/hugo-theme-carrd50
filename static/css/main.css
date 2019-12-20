@@ -1344,7 +1344,7 @@ p mark {
     justify-content: center;
     vertical-align: middle;
 }
-#buttons01 {
+/* #buttons01 {
     width: calc(100% + 0rem);
     margin-left: -0rem;
 }
@@ -1370,7 +1370,7 @@ p mark {
 #buttons01 .button {
     background-color: #3BACFF;
     color: #FFFFFF;
-}
+} */
 @media (max-width: 1680px) {
     html {
         font-size: 13pt;
@@ -1641,7 +1641,7 @@ p mark {
     #columns02.columns > .inner > .full > .full:first-child:last-child span {
         height: auto;
     }
-    #columns03 > .inner {
+    /* #columns03 > .inner {
         padding: 0;
     }
     #columns03.default > .inner > * {
@@ -1745,7 +1745,7 @@ p mark {
     #columns03.columns > .inner > .full > .full:first-child:last-child img,
     #columns03.columns > .inner > .full > .full:first-child:last-child span {
         height: auto;
-    }
+    } */
     #text05 {
         letter-spacing: -0.021875rem;
         width: 100%;
@@ -1817,14 +1817,14 @@ p mark {
         margin-top: 1.421875rem;
         margin-bottom: 1.421875rem;
     }
-    #columns03.default > .inner > * {
+    /* #columns03.default > .inner > * {
         margin-top: 1.421875rem;
         margin-bottom: 1.421875rem;
     }
     #columns03.columns > .inner > * > * {
         margin-top: 1.421875rem;
         margin-bottom: 1.421875rem;
-    }
+    } */
 }
 @media (max-width: 360px) {
     #main > .inner {
@@ -1958,7 +1958,7 @@ p mark {
     #columns02.columns > .inner > div:last-of-type > .full:last-child {
         margin-bottom: calc(-0rem) !important;
     }
-    #columns03 > .inner {
+    /* #columns03 > .inner {
         padding: 0;
     }
     #columns03.default > .inner > * {
@@ -2002,7 +2002,7 @@ p mark {
     }
     #columns03.columns > .inner > div:last-of-type > .full:last-child {
         margin-bottom: calc(-0rem) !important;
-    }
+    } */
     #text05 {
         font-size: 0.875em;
     }
