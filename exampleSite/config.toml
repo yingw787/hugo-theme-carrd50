@@ -1,5 +1,13 @@
 baseURL = "https://example.com"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "en-us"
 title = "carrd50"
 theme = "carrd50"
+
+googleAnalytics = ""
+
+[params]
+    author = "Ying Wang"
+    description = "Port of Pro Template #50 by https://carrd.co"
+    # Available fonts include:
+    # Google Fonts file
+    font = ""
