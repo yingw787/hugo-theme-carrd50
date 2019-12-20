@@ -16,10 +16,13 @@ googleAnalytics = ""
     favicon = "img/favicon.png"
 
     # Optional #
-    font = "Space Mono" # Available fonts include: ["Space Mono"]. Double check file "css.html" for full Google Fonts API request.
+    font = "Space Mono" # Available fonts include: ["Space Mono"].
     titleImage = "img/image01.png"
     titleTextColor = "#FFFFFF"
     bodyTextColor = "#FFFFFF"
-    # backgroundColor = "#002b36" # Solarized Dark Base03
-
+    backgroundColor = "#002b36" # Solarized Dark Base03
     footerTextColor = "#FFFFFF"
+
+    formInputColor = "#666666"
+    formBackgroundColor = "#FFFFFF"
+    formSelectedColor = "#1ABC9C"
