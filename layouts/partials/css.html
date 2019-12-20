@@ -3,6 +3,10 @@
 html body {
     background-color: {{ .Site.Params.backgroundColor | default "#002b36" }}
 }
+
+h1 {
+    font-family: '{{ .Site.Params.font }}', monospace;
+}
 </style>
 
 <!-- main.css -->
