@@ -1,5 +1,12 @@
+<!-- This style block should be placed here in order to configure styling from config.toml. -->
+<style>
+html body {
+    background-color: {{ .Site.Params.backgroundColor | default "#1C76B8" }}
+}
+</style>
+
 <!-- main.css -->
-<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}"  type="text/css">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}" rel="stylesheet">
