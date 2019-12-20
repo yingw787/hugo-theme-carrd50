@@ -19,7 +19,7 @@ googleAnalytics = ""
     font = "Space Mono" # Available fonts include: ["Space Mono"]. Double check file "css.html" for full Google Fonts API request.
     titleImage = "img/image01.png"
     titleTextColor = "#FFFFFF"
-
+    bodyTextColor = "#FFFFFF"
     # backgroundColor = "#002b36" # Solarized Dark Base03
 
     footerTextColor = "#FFFFFF"
