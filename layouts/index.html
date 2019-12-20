@@ -3,6 +3,11 @@
 <div id="wrapper">
     <div id="main">
         <div class="inner">
+            {{ if .Site.Params.titleImage }}
+                <div id="image01" class="image">
+                    <img src="{{ .Site.Params.titleImage | absURL }}">
+                </div>
+            {{ end }}
             <h1>{{ .Site.Title }}</h1>
         </div>
     </div>
