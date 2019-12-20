@@ -7,8 +7,8 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <title>{{ .Title }}</title>
-        <meta name="author" content="{{ .Site.author }}, {{ .Site.email }}">
-        <meta name="description" content="{{ .Site.description }}">
+        <meta name="author" content="{{ .Site.Params.author }}, {{ .Site.Params.email }}">
+        <meta name="description" content="{{ .Site.Params.description }}">
 
         <!-- OTHER HTML TAGS -->
         {{ partial "css" . }}
