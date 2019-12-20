@@ -1,6 +1,18 @@
 <!-- This style block should be placed here in order to configure styling from config.toml. -->
 <style>
-
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: {{ .Site.Params.backgroundColor | default "#1C76B8" | safeCSS }};
+}
 </style>
 
 <!-- main.css -->
