@@ -12,6 +12,7 @@
 #main {
     display: flex;
     position: relative;
+    width: 676px;
     max-width: 100%;
     z-index: 1;
     align-items: center;
