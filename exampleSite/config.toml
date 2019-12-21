@@ -14,15 +14,13 @@ googleAnalytics = ""
     description = "Port of Pro Template #50 by https://carrd.co"
     copyrightYear = "2019"
     favicon = "img/favicon.png"
-    mailchimpURL = ""
-    mailchimpBotDecoyLink = ""
 
     # Optional #
     font = "Space Mono" # Available fonts include: ["Space Mono"].
     titleImage = "img/image01.png"
     titleTextColor = "#FFFFFF"
     bodyTextColor = "#FFFFFF"
-    backgroundColor = "#002b36" # Solarized Dark Base03
+    backgroundColor = "#1C76B8"
 
     formInputColor = "#666666"
     formBackgroundColor = "#FFFFFF"
@@ -32,3 +30,6 @@ googleAnalytics = ""
     buttonBackgroundColor = "#3BACFF"
 
     footerTextColor = "#FFFFFF"
+
+    mailchimpURL = "$YOUR_MAILCHIMP_URL"
+    mailchimpBotDecoyLink = "$YOUR_MAILCHIMP_BOT_DECOY_LINK"
