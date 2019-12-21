@@ -12,6 +12,7 @@
         <meta name="description" content="{{ .Site.Params.description }}">
 
         <!-- OTHER HTML TAGS -->
+        {{ template "_internal/google_analytics_async.html" . }}
         {{ partial "css" . }}
     </head>
     <body class="is-ready">
