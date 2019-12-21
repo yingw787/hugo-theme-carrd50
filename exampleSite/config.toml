@@ -5,7 +5,7 @@ title = "carrd50"
 theme = "carrd50"
 
 # Optional
-googleAnalytics = ""
+googleAnalytics = "$YOUR_GOOGLE_ANALYTICS"
 
 [params]
     # Required #
