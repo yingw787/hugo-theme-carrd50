@@ -1,7 +1,7 @@
 # `hugo-theme-tinydevcrm`: A Port of Pro Template # 50 from [Carrd](https://carrd.co)
 
 This theme is a port of [Pro Template # 50](https://template50.carrd.co) by
-[Carrd](https://caard.co). This forms the basis for the "Coming Soon" page for
+[Carrd](https://caard.co). This forms the basis for the landing page for
 [TinyDevCRM](https://tinydevcrm.com).
 
 ## Environment
