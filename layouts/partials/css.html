@@ -2,6 +2,39 @@
 config.toml using Hugo templating. -->
 <!-- For all other styling, refer to static/css/main.css. -->
 <style>
+
+#navbar {
+    font-family: "Space Mono", monospace;
+    z-index: 3 !important;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
 body {
     margin: 0;
     padding: 0;

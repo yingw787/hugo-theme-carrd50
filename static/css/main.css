@@ -20,6 +20,7 @@ html {
     font-size: 18pt;
 }
 #wrapper {
+    margin-top: 75px;
     -webkit-overflow-scrolling: touch;
     display: flex;
     -moz-flex-direction: column;
@@ -35,7 +36,6 @@ html {
     -ms-justify-content: center;
     justify-content: center;
     min-height: 100vh;
-    position: relative;
     z-index: 2;
     overflow: hidden;
 }
