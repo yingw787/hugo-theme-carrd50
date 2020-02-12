@@ -7,6 +7,13 @@ theme = "carrd50"
 # Optional
 googleAnalytics = "$YOUR_GOOGLE_ANALYTICS"
 
+[menu]
+# Navbar items
+[[menu.nav]]
+name = "Name1"
+url = "Href1"
+weight = 1
+
 [params]
     # Required #
     author = "Ying Wang"
