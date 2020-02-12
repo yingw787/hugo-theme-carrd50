@@ -18,8 +18,6 @@ googleAnalytics = "$YOUR_GOOGLE_ANALYTICS"
     # Navbar #
     firstElementText = "Text1"
     firstElementHref = "#Href1"
-    secondElementText = "Text2"
-    secondElementHref = "#Href2"
     thirdElementText = "Text3"
     thirdElementHref = "#Href3"
 
