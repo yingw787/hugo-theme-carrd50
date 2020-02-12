@@ -17,7 +17,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: {{ .Site.Params.backgroundColor | default "#1C76B8" | safeCSS }};
+
+  -webkit-box-shadow: 0px 1px 10px 1px black;
+  -moz-box-shadow: 0px 1px 10px 1px black;
+  box-shadow: 0px 1px 10px 1px black;
+
 }
 
 li {
@@ -26,7 +31,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: {{ .Site.Params.bodyTextColor | default "rgba(255,255,255,0.769)" | safeCSS }};
   text-align: center;
   padding: 25px 16px;
   text-decoration: none;
