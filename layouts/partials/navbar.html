@@ -1,7 +1,13 @@
 <div id="navbar">
     <ul>
-        <li><a href="/">TinyDevCRM</a></li>
-        <li><a href="mailto:me@yingw787.com">Email Me</a></li>
-        <li style="float:right"><a href="/">Dashboard</a></li>
+        <li><a href="{{ .Site.Params.firstElementHref }}">
+            {{ .Site.Params.firstElementText }}
+        </a></li>
+        <li><a href="{{ .Site.Params.secondElementHref }}">
+            {{ .Site.Params.secondElementText }}
+        </a></li>
+        <li style="float:right"><a href="{{ .Site.Params.thirdElementHref }}">
+            {{ .Site.Params.thirdElementText }}
+        </a></li>
     </ul>
 </div>

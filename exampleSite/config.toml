@@ -15,10 +15,16 @@ googleAnalytics = "$YOUR_GOOGLE_ANALYTICS"
     copyrightYear = "2019"
     favicon = "img/favicon.png"
 
+    # Navbar #
+    firstElementText = "Text1"
+    firstElementHref = "#Href1"
+    secondElementText = "Text2"
+    secondElementHref = "#Href2"
+    thirdElementText = "Text3"
+    thirdElementHref = "#Href3"
+
     # Optional #
     font = "Space Mono" # Available fonts include: ["Space Mono"].
-    titleImage = "img/image01.png"
-    titleTextColor = "#FFFFFF"
     bodyTextColor = "#FFFFFF"
     backgroundColor = "#1C76B8"
 
