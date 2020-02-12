@@ -1,10 +1,8 @@
-<div id="navbar">
-    <ul>
-        <li><a href="{{ .Site.Params.firstElementHref }}">
-            {{ .Site.Params.firstElementText }}
-        </a></li>
-        <li style="float:right"><a href="{{ .Site.Params.thirdElementHref }}">
-            {{ .Site.Params.thirdElementText }}
-        </a></li>
-    </ul>
+<div class="topnav" id="myTopnav">
+    {{ range .Site.Menus.nav }}
+    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{ end }}
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 </div>
